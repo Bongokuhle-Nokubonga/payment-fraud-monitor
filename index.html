@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Fraud Monitor</title>
+  <meta name="description" content="Rules-based fraud detection for card transactions: card testing, impossible travel, spending spikes and more, each explained in plain language.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%2310b981'/%3E%3Crect x='4' y='7' width='16' height='11' rx='2' fill='white'/%3E%3Crect x='4' y='9.5' width='16' height='2' fill='%23064e3b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="wrap nav">
+      <span class="brand">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" class="b-bg"/><rect x="4" y="7" width="16" height="11" rx="2" class="b-card"/><rect x="4" y="9.5" width="16" height="2" class="b-stripe"/><circle cx="17" cy="15.2" r="1.3" class="b-dot"/></svg>
+        Payment Fraud Monitor
+      </span>
+      <span class="nav-links">
+        <a href="#rules">Rules</a>
+        <a href="tests.html">Tests</a>
+        <a href="https://github.com/Bongokuhle-Nokubonga/payment-fraud-monitor">GitHub</a>
+      </span>
+    </nav>
+    <div class="wrap hero-text">
+      <p class="kicker">Fintech · fraud analytics</p>
+      <h1>Spot card fraud before the customer does.</h1>
+      <p class="lede">Scores every card transaction with the same kinds of rules bank fraud teams use, and explains each alert in plain language. Runs in your browser: uploaded files never leave your computer.</p>
+      <div class="hero-actions">
+        <label class="btn primary" for="file">Upload a CSV</label>
+        <input id="file" type="file" accept=".csv,text/csv" class="sr">
+        <button type="button" class="btn ghost" id="loadSample">Reload sample data</button>
+        <a class="btn ghost" href="data/sample-transactions.csv" download>Download sample CSV</a>
+      </div>
+      <p id="source" class="source"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p id="notice" class="notice" role="status" hidden></p>
+
+    <section class="kpis" aria-label="Summary">
+      <div class="kpi"><span>Transactions</span><strong id="kTotal">0</strong><em id="kCards"></em></div>
+      <div class="kpi high"><span>High risk</span><strong id="kHigh">0</strong><em>block and call customer</em></div>
+      <div class="kpi review"><span>Needs review</span><strong id="kReview">0</strong><em>check with customer</em></div>
+      <div class="kpi money"><span>Value at risk</span><strong id="kValue">R 0.00</strong><em id="kValueShare"></em></div>
+      <div class="kpi"><span>Cards affected</span><strong id="kAffected">0</strong><em id="kAffectedShare"></em></div>
+    </section>
+
+    <section class="card signals" aria-labelledby="sigTitle">
+      <h2 id="sigTitle">Signals triggered</h2>
+      <ul id="ruleBars" class="bars"></ul>
+    </section>
+
+    <div class="workspace">
+      <section class="card queue" aria-labelledby="queueTitle">
+        <div class="queue-head">
+          <h2 id="queueTitle">Alert queue</h2>
+          <div class="tabs" role="tablist" aria-label="Filter by risk">
+            <button type="button" role="tab" data-level="action" aria-selected="true">Needs action <b id="cAction"></b></button>
+            <button type="button" role="tab" data-level="high" aria-selected="false">High <b id="cHigh"></b></button>
+            <button type="button" role="tab" data-level="review" aria-selected="false">Review <b id="cReview"></b></button>
+            <button type="button" role="tab" data-level="all" aria-selected="false">All <b id="cAll"></b></button>
+          </div>
+        </div>
+        <div class="queue-tools">
+          <input id="search" type="search" placeholder="Search card, merchant or city" aria-label="Search transactions">
+          <button type="button" class="btn small" id="export">Export flagged CSV</button>
+        </div>
+        <div class="table-scroll">
+          <table class="txns">
+            <thead><tr><th>Time</th><th>Card</th><th>Merchant</th><th>Where</th><th class="num">Amount</th><th>Risk</th><th>Signals</th></tr></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <p id="empty" class="empty" hidden>No transactions match.</p>
+      </section>
+
+      <aside id="detail" class="card detail" aria-live="polite">
+        <p class="detail-hint">Select a transaction to see why it was flagged and the card's recent activity.</p>
+      </aside>
+    </div>
+
+    <section class="rules" id="rules">
+      <h2>The rules</h2>
+      <p class="muted">Each rule that fires adds points. <b class="lv high">60+</b> is high risk, <b class="lv review">30-59</b> needs review, below 30 is low. One weak signal on its own never blocks a card.</p>
+      <div class="rule-grid">
+        <div><b>Card testing <span>30</span></b><p>3+ charges under R20 within 10 minutes: checking a stolen card works.</p></div>
+        <div><b>Large purchase after test charges <span>35</span></b><p>R1 000+ within an hour of a card-testing burst.</p></div>
+        <div><b>Impossible travel <span>40</span></b><p>In-person payments in two cities faster than 900 km/h. Usually a cloned card.</p></div>
+        <div><b>Approved after repeated declines <span>30</span></b><p>3+ declines in 30 minutes, then success: CVV or expiry guessing.</p></div>
+        <div><b>Much bigger than usual <span>30</span></b><p>5× the card's typical (median) spend, and at least R2 000.</p></div>
+        <div><b>Unusually many transactions <span>20</span></b><p>5 or more on one card within an hour.</p></div>
+        <div><b>First use in a new country <span>20</span></b><p>A country this card has never been used in before.</p></div>
+        <div><b>High-risk merchant type <span>15</span></b><p>Gambling, crypto, gift cards and money transfer: easy places to cash out.</p></div>
+        <div><b>High value at night <span>10</span></b><p>R5 000+ between midnight and 05:00.</p></div>
+      </div>
+      <div class="card csv-help">
+        <h3>Use your own data</h3>
+        <p>Upload a CSV with these columns (download the sample to see the format):</p>
+        <code>id, timestamp, card, amount, merchant, category, city, country, channel, status</code>
+        <p class="muted small">Timestamps like <code>2026-11-17T14:30:00</code>, amounts in rand like <code>1299.99</code>, channel <code>pos</code> or <code>online</code>, status <code>approved</code> or <code>declined</code>. Use test or anonymised data only: never real card numbers.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer small muted">
+    <span>Synthetic sample data. Rules-based demo, not a production fraud system.</span>
+    <span>Built by <a href="https://bongokuhle-nokubonga.github.io/portfolio-website/">Nokubonga Nkuna</a></span>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

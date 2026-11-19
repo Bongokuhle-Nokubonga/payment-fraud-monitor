@@ -1,0 +1,12 @@
+{
+  "name": "payment-fraud-monitor",
+  "version": "1.0.0",
+  "description": "Rules-based payment fraud detection dashboard for card transactions.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "sample": "node tools/generate-sample.mjs"
+  },
+  "license": "MIT"
+}

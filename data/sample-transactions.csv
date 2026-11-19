@@ -1,0 +1,250 @@
+id,timestamp,card,amount,merchant,category,city,country,channel,status
+txn_00001,2026-11-15T07:01:00,card_1015,638.59,Spar,groceries,Durban,ZA,pos,approved
+txn_00002,2026-11-15T07:14:00,card_1007,340.95,Checkers,groceries,Pretoria,ZA,pos,approved
+txn_00003,2026-11-15T07:32:00,card_1024,167.20,Mr Price,clothing,Durban,ZA,pos,approved
+txn_00004,2026-11-15T07:39:00,card_1021,580.73,BP,fuel,Cape Town,ZA,pos,approved
+txn_00005,2026-11-15T07:41:00,card_1006,405.68,Dis-Chem,pharmacy,Bloemfontein,ZA,pos,approved
+txn_00006,2026-11-15T07:51:00,card_1027,143.46,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00007,2026-11-15T08:11:00,card_1022,466.69,Mr Price,clothing,Durban,ZA,pos,approved
+txn_00008,2026-11-15T08:24:00,card_1015,948.56,BP,fuel,Durban,ZA,pos,approved
+txn_00009,2026-11-15T08:35:00,card_1003,94.30,Ocean Basket,restaurants,Johannesburg,ZA,pos,approved
+txn_00010,2026-11-15T09:22:00,card_1021,391.30,Dis-Chem,pharmacy,Cape Town,ZA,pos,approved
+txn_00011,2026-11-15T09:22:00,card_1024,204.43,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00012,2026-11-15T09:31:00,card_1017,301.38,Clicks,pharmacy,Pretoria,ZA,pos,approved
+txn_00013,2026-11-15T09:33:00,card_1029,473.12,Ocean Basket,restaurants,Cape Town,ZA,pos,approved
+txn_00014,2026-11-15T09:35:00,card_1001,120.64,Spur,restaurants,Johannesburg,ZA,pos,approved
+txn_00015,2026-11-15T09:38:00,card_1007,1285.73,Netflix,online_retail,Pretoria,ZA,online,approved
+txn_00016,2026-11-15T09:48:00,card_1013,325.26,Edgars,clothing,Johannesburg,ZA,pos,approved
+txn_00017,2026-11-15T09:57:00,card_1009,121.58,Netflix,online_retail,Cape Town,ZA,online,approved
+txn_00018,2026-11-15T10:26:00,card_1022,145.52,Netflix,online_retail,Durban,ZA,online,approved
+txn_00019,2026-11-15T10:57:00,card_1008,796.77,Edgars,clothing,Polokwane,ZA,pos,approved
+txn_00020,2026-11-15T10:58:00,card_1009,931.70,Engen,fuel,Cape Town,ZA,pos,approved
+txn_00021,2026-11-15T11:58:00,card_1012,528.71,Nando's,restaurants,Johannesburg,ZA,pos,approved
+txn_00022,2026-11-15T12:02:00,card_1023,626.44,Shell,fuel,Bloemfontein,ZA,pos,approved
+txn_00023,2026-11-15T12:17:00,card_1013,864.83,Ackermans,clothing,Johannesburg,ZA,pos,approved
+txn_00024,2026-11-15T12:17:00,card_1014,645.46,Spur,restaurants,Johannesburg,ZA,pos,approved
+txn_00025,2026-11-15T12:37:00,card_1019,621.84,Spur,restaurants,Pretoria,ZA,pos,approved
+txn_00026,2026-11-15T12:48:00,card_1004,715.29,Mr Price,clothing,Mbombela,ZA,pos,approved
+txn_00027,2026-11-15T12:48:00,card_1010,442.70,Ocean Basket,restaurants,Bloemfontein,ZA,pos,approved
+txn_00028,2026-11-15T12:52:00,card_1028,927.91,Edgars,clothing,Johannesburg,ZA,pos,approved
+txn_00029,2026-11-15T13:01:00,card_1007,878.41,Engen,fuel,Pretoria,ZA,pos,approved
+txn_00030,2026-11-15T13:14:00,card_1018,816.17,Woolworths Food,groceries,Durban,ZA,pos,approved
+txn_00031,2026-11-15T13:20:00,card_1029,404.84,Checkers Sixty60,online_retail,Cape Town,ZA,online,approved
+txn_00032,2026-11-15T13:27:00,card_1012,1173.89,Ackermans,clothing,Johannesburg,ZA,pos,approved
+txn_00033,2026-11-15T13:28:00,card_1011,486.83,Nando's,restaurants,Mbombela,ZA,pos,approved
+txn_00034,2026-11-15T13:41:00,card_1026,705.87,Takealot,online_retail,Bloemfontein,ZA,online,approved
+txn_00035,2026-11-15T14:19:00,card_1004,961.60,Takealot,online_retail,Mbombela,ZA,online,approved
+txn_00036,2026-11-15T14:20:00,card_1006,421.05,Shell,fuel,Bloemfontein,ZA,pos,approved
+txn_00037,2026-11-15T14:46:00,card_1022,261.53,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00038,2026-11-15T14:59:00,card_1020,444.69,Nando's,restaurants,Pretoria,ZA,pos,approved
+txn_00039,2026-11-15T15:21:00,card_1027,1176.82,Netflix,online_retail,Durban,ZA,online,approved
+txn_00040,2026-11-15T15:43:00,card_1028,884.82,BP,fuel,Johannesburg,ZA,pos,approved
+txn_00041,2026-11-15T15:53:00,card_1013,757.79,BP,fuel,Johannesburg,ZA,pos,approved
+txn_00042,2026-11-15T15:58:00,card_1023,181.97,Spur,restaurants,Bloemfontein,ZA,pos,approved
+txn_00043,2026-11-15T16:17:00,card_1029,998.38,Takealot,online_retail,Cape Town,ZA,online,approved
+txn_00044,2026-11-15T16:39:00,card_1018,131.06,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00045,2026-11-15T16:54:00,card_1003,542.98,Ocean Basket,restaurants,Johannesburg,ZA,pos,approved
+txn_00046,2026-11-15T17:23:00,card_1005,795.68,BP,fuel,Pretoria,ZA,pos,approved
+txn_00047,2026-11-15T17:27:00,card_1021,179.23,Wimpy,restaurants,Cape Town,ZA,pos,approved
+txn_00048,2026-11-15T17:44:00,card_1025,521.28,Pick n Pay,groceries,Cape Town,ZA,pos,approved
+txn_00049,2026-11-15T17:46:00,card_1028,415.59,BP,fuel,Johannesburg,ZA,pos,approved
+txn_00050,2026-11-15T17:58:00,card_1006,307.68,Wimpy,restaurants,Bloemfontein,ZA,pos,approved
+txn_00051,2026-11-15T18:22:00,card_1002,857.61,Sasol,fuel,Durban,ZA,pos,approved
+txn_00052,2026-11-15T18:26:00,card_1024,931.19,Pick n Pay,groceries,Durban,ZA,pos,approved
+txn_00053,2026-11-15T18:36:00,card_1018,550.51,Wimpy,restaurants,Durban,ZA,pos,approved
+txn_00054,2026-11-15T18:36:00,card_1030,423.28,Dis-Chem,pharmacy,Cape Town,ZA,pos,approved
+txn_00055,2026-11-15T18:46:00,card_1016,198.64,Spar,groceries,Polokwane,ZA,pos,approved
+txn_00056,2026-11-15T18:51:00,card_1005,497.26,Engen,fuel,Pretoria,ZA,pos,approved
+txn_00057,2026-11-15T19:07:00,card_1011,293.86,Dis-Chem,pharmacy,Mbombela,ZA,pos,approved
+txn_00058,2026-11-15T19:25:00,card_1025,511.58,Nando's,restaurants,Cape Town,ZA,pos,approved
+txn_00059,2026-11-15T19:38:00,card_1012,537.05,Checkers,groceries,Johannesburg,ZA,pos,approved
+txn_00060,2026-11-15T19:45:00,card_1008,362.92,Clicks,pharmacy,Polokwane,ZA,pos,approved
+txn_00061,2026-11-15T20:07:00,card_1003,1012.69,Edgars,clothing,Johannesburg,ZA,pos,approved
+txn_00062,2026-11-15T20:09:00,card_1015,840.48,Spar,groceries,Durban,ZA,pos,approved
+txn_00063,2026-11-15T20:10:00,card_1023,285.87,Woolworths Food,groceries,Bloemfontein,ZA,pos,approved
+txn_00064,2026-11-15T20:28:00,card_1020,426.87,Nando's,restaurants,Pretoria,ZA,pos,approved
+txn_00065,2026-11-15T20:40:00,card_1025,715.87,Shell,fuel,Cape Town,ZA,pos,approved
+txn_00066,2026-11-16T07:10:00,card_1021,1290.37,Edgars,clothing,Cape Town,ZA,pos,approved
+txn_00067,2026-11-16T07:11:00,card_1011,858.04,BP,fuel,Mbombela,ZA,pos,approved
+txn_00068,2026-11-16T07:24:00,card_1028,115.91,Spur,restaurants,Johannesburg,ZA,pos,approved
+txn_00069,2026-11-16T07:31:00,card_1027,587.45,Shell,fuel,Durban,ZA,pos,approved
+txn_00070,2026-11-16T07:32:00,card_1013,1171.38,Uber Eats,online_retail,Johannesburg,ZA,online,approved
+txn_00071,2026-11-16T07:45:00,card_1007,591.62,Shell,fuel,Pretoria,ZA,pos,approved
+txn_00072,2026-11-16T07:48:00,card_1014,1254.80,Pep,clothing,Johannesburg,ZA,pos,approved
+txn_00073,2026-11-16T08:10:00,card_1030,1267.55,Uber Eats,online_retail,Cape Town,ZA,online,approved
+txn_00074,2026-11-16T08:30:00,card_1028,513.28,Sasol,fuel,Johannesburg,ZA,pos,approved
+txn_00075,2026-11-16T08:41:00,card_1021,467.46,Sasol,fuel,Cape Town,ZA,pos,approved
+txn_00076,2026-11-16T08:41:00,card_1022,599.54,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00077,2026-11-16T08:50:00,card_1008,785.39,Netflix,online_retail,Polokwane,ZA,online,approved
+txn_00078,2026-11-16T09:23:00,card_1013,400.65,Woolworths Food,groceries,Johannesburg,ZA,pos,approved
+txn_00079,2026-11-16T09:52:00,card_1025,886.86,Pep,clothing,Cape Town,ZA,pos,approved
+txn_00080,2026-11-16T09:54:00,card_1027,390.44,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00081,2026-11-16T10:07:00,card_1012,674.75,Dis-Chem,pharmacy,Johannesburg,ZA,pos,approved
+txn_00082,2026-11-16T10:10:00,card_1011,389.71,Spur,restaurants,Mbombela,ZA,pos,approved
+txn_00083,2026-11-16T10:14:00,card_1018,555.06,Shell,fuel,Durban,ZA,pos,approved
+txn_00084,2026-11-16T10:19:00,card_1005,1224.60,Mr Price,clothing,Pretoria,ZA,pos,declined
+txn_00085,2026-11-16T10:22:00,card_1026,431.51,Wimpy,restaurants,Bloemfontein,ZA,pos,approved
+txn_00086,2026-11-16T10:26:00,card_1016,373.11,Spar,groceries,Polokwane,ZA,pos,approved
+txn_00087,2026-11-16T11:04:00,card_1003,884.20,Spar,groceries,Johannesburg,ZA,pos,approved
+txn_00088,2026-11-16T11:26:00,card_1014,669.60,Edgars,clothing,Johannesburg,ZA,pos,approved
+txn_00089,2026-11-16T11:33:00,card_1030,217.17,Edgars,clothing,Cape Town,ZA,pos,approved
+txn_00090,2026-11-16T11:47:00,card_1007,1163.32,Checkers,groceries,Pretoria,ZA,pos,approved
+txn_00091,2026-11-16T12:20:00,card_1004,836.26,Sasol,fuel,Mbombela,ZA,pos,approved
+txn_00092,2026-11-16T12:27:00,card_1016,934.80,Shell,fuel,Polokwane,ZA,pos,approved
+txn_00093,2026-11-16T12:37:00,card_1012,586.90,Dis-Chem,pharmacy,Johannesburg,ZA,pos,approved
+txn_00094,2026-11-16T12:39:00,card_1001,585.87,Woolworths Food,groceries,Johannesburg,ZA,pos,approved
+txn_00095,2026-11-16T12:41:00,card_1025,409.01,Ackermans,clothing,Cape Town,ZA,pos,approved
+txn_00096,2026-11-16T12:54:00,card_1020,903.82,Uber Eats,online_retail,Pretoria,ZA,online,approved
+txn_00097,2026-11-16T13:36:00,card_1001,326.84,Ocean Basket,restaurants,Johannesburg,ZA,pos,approved
+txn_00098,2026-11-16T13:36:00,card_1010,195.58,Checkers Sixty60,online_retail,Bloemfontein,ZA,online,approved
+txn_00099,2026-11-16T13:39:00,card_1015,508.02,Mr Price,clothing,Durban,ZA,pos,approved
+txn_00100,2026-11-16T13:39:00,card_1028,241.02,Nando's,restaurants,Johannesburg,ZA,pos,approved
+txn_00101,2026-11-16T14:01:00,card_1018,295.62,Spur,restaurants,Durban,ZA,pos,approved
+txn_00102,2026-11-16T14:10:00,card_1029,1185.50,Checkers Sixty60,online_retail,Cape Town,ZA,online,approved
+txn_00103,2026-11-16T14:23:00,card_1003,1100.41,Checkers,groceries,Johannesburg,ZA,pos,approved
+txn_00104,2026-11-16T14:56:00,card_1024,249.38,Ocean Basket,restaurants,Durban,ZA,pos,approved
+txn_00105,2026-11-16T15:23:00,card_1024,616.19,BP,fuel,Durban,ZA,pos,approved
+txn_00106,2026-11-16T15:28:00,card_1020,617.50,Sasol,fuel,Pretoria,ZA,pos,approved
+txn_00107,2026-11-16T15:48:00,card_1003,914.75,Takealot,online_retail,Johannesburg,ZA,online,approved
+txn_00108,2026-11-16T15:48:00,card_1025,726.35,Pick n Pay,groceries,Cape Town,ZA,pos,approved
+txn_00109,2026-11-16T16:03:00,card_1017,432.90,Dis-Chem,pharmacy,Pretoria,ZA,pos,approved
+txn_00110,2026-11-16T16:06:00,card_1012,615.12,Clicks,pharmacy,Johannesburg,ZA,pos,approved
+txn_00111,2026-11-16T16:06:00,card_1027,300.46,Wimpy,restaurants,Durban,ZA,pos,approved
+txn_00112,2026-11-16T16:07:00,card_1007,601.83,Shell,fuel,Pretoria,ZA,pos,approved
+txn_00113,2026-11-16T16:13:00,card_1013,769.14,Shell,fuel,Johannesburg,ZA,pos,approved
+txn_00114,2026-11-16T16:19:00,card_1010,478.07,Edgars,clothing,Bloemfontein,ZA,pos,approved
+txn_00115,2026-11-16T16:51:00,card_1019,405.89,BP,fuel,Pretoria,ZA,pos,approved
+txn_00116,2026-11-16T17:24:00,card_1026,270.71,Woolworths Food,groceries,Bloemfontein,ZA,pos,approved
+txn_00117,2026-11-16T17:48:00,card_1015,1165.85,Netflix,online_retail,Durban,ZA,online,approved
+txn_00118,2026-11-16T17:58:00,card_1008,446.93,Checkers,groceries,Polokwane,ZA,pos,approved
+txn_00119,2026-11-16T17:58:00,card_1023,430.96,Clicks,pharmacy,Bloemfontein,ZA,pos,approved
+txn_00120,2026-11-16T18:10:00,card_1023,609.38,Wimpy,restaurants,Bloemfontein,ZA,pos,declined
+txn_00121,2026-11-16T18:31:00,card_1004,925.93,Shell,fuel,Mbombela,ZA,pos,approved
+txn_00122,2026-11-16T18:51:00,card_1014,130.78,Dis-Chem,pharmacy,Johannesburg,ZA,pos,approved
+txn_00123,2026-11-16T18:55:00,card_1024,1222.61,Edgars,clothing,Durban,ZA,pos,approved
+txn_00124,2026-11-16T19:04:00,card_1021,1096.64,Pick n Pay,groceries,Cape Town,ZA,pos,approved
+txn_00125,2026-11-16T19:15:00,card_1006,537.40,Takealot,online_retail,Bloemfontein,ZA,online,approved
+txn_00126,2026-11-16T19:16:00,card_1016,224.86,Checkers Sixty60,online_retail,Polokwane,ZA,online,approved
+txn_00127,2026-11-16T19:31:00,card_1023,553.35,Ocean Basket,restaurants,Bloemfontein,ZA,pos,approved
+txn_00128,2026-11-16T19:45:00,card_1011,623.79,Checkers,groceries,Mbombela,ZA,pos,approved
+txn_00129,2026-11-16T19:47:00,card_1029,972.33,Checkers,groceries,Cape Town,ZA,pos,approved
+txn_00130,2026-11-16T19:52:00,card_1002,575.65,Spur,restaurants,Durban,ZA,pos,approved
+txn_00131,2026-11-16T20:14:00,card_1015,1268.63,Takealot,online_retail,Durban,ZA,online,approved
+txn_00132,2026-11-16T20:17:00,card_1018,571.03,BP,fuel,Durban,ZA,pos,approved
+txn_00133,2026-11-16T20:22:00,card_1008,287.67,Pick n Pay,groceries,Polokwane,ZA,pos,approved
+txn_00134,2026-11-16T20:32:00,card_1017,751.38,Edgars,clothing,Pretoria,ZA,pos,approved
+txn_00135,2026-11-16T20:33:00,card_1030,554.54,Clicks,pharmacy,Cape Town,ZA,pos,approved
+txn_00136,2026-11-16T20:39:00,card_1009,894.48,Pep,clothing,Cape Town,ZA,pos,approved
+txn_00137,2026-11-16T20:44:00,card_1029,1307.51,Ackermans,clothing,Cape Town,ZA,pos,approved
+txn_00138,2026-11-17T02:10:00,card_1007,5.00,GiftCardHub,gift_cards,Pretoria,ZA,online,approved
+txn_00139,2026-11-17T02:12:00,card_1007,9.99,GiftCardHub,gift_cards,Pretoria,ZA,online,approved
+txn_00140,2026-11-17T02:13:00,card_1007,12.50,GiftCardHub,gift_cards,Pretoria,ZA,online,approved
+txn_00141,2026-11-17T02:15:00,card_1007,7.00,GiftCardHub,gift_cards,Pretoria,ZA,online,approved
+txn_00142,2026-11-17T02:31:00,card_1007,6499.00,Incredible Connection Online,electronics,Pretoria,ZA,online,approved
+txn_00143,2026-11-17T07:05:00,card_1029,319.95,Edgars,clothing,Cape Town,ZA,pos,approved
+txn_00144,2026-11-17T07:40:00,card_1009,291.49,Woolworths Food,groceries,Cape Town,ZA,pos,approved
+txn_00145,2026-11-17T07:40:00,card_1028,65.00,Vida e Caffe O.R. Tambo,restaurants,Johannesburg,ZA,pos,approved
+txn_00146,2026-11-17T08:10:00,card_1002,420.33,Dis-Chem,pharmacy,Durban,ZA,pos,approved
+txn_00147,2026-11-17T08:13:00,card_1022,487.51,Pep,clothing,Durban,ZA,pos,approved
+txn_00148,2026-11-17T08:19:00,card_1030,584.48,Checkers Sixty60,online_retail,Cape Town,ZA,online,approved
+txn_00149,2026-11-17T08:24:00,card_1008,827.52,Uber Eats,online_retail,Polokwane,ZA,online,approved
+txn_00150,2026-11-17T08:26:00,card_1023,536.25,Engen,fuel,Bloemfontein,ZA,pos,approved
+txn_00151,2026-11-17T08:32:00,card_1011,948.29,Checkers,groceries,Mbombela,ZA,pos,approved
+txn_00152,2026-11-17T08:48:00,card_1006,203.33,Wimpy,restaurants,Bloemfontein,ZA,pos,approved
+txn_00153,2026-11-17T09:23:00,card_1020,541.85,Checkers Sixty60,online_retail,Pretoria,ZA,online,approved
+txn_00154,2026-11-17T09:24:00,card_1010,230.06,Clicks,pharmacy,Bloemfontein,ZA,pos,approved
+txn_00155,2026-11-17T09:27:00,card_1013,1042.97,Mr Price,clothing,Johannesburg,ZA,pos,approved
+txn_00156,2026-11-17T09:41:00,card_1002,352.42,Ocean Basket,restaurants,Durban,ZA,pos,approved
+txn_00157,2026-11-17T10:05:00,card_1012,452.30,Woolworths Food,groceries,Johannesburg,ZA,pos,approved
+txn_00158,2026-11-17T10:07:00,card_1019,173.91,Clicks,pharmacy,Pretoria,ZA,pos,approved
+txn_00159,2026-11-17T10:15:00,card_1006,355.63,Pick n Pay,groceries,Bloemfontein,ZA,pos,approved
+txn_00160,2026-11-17T10:39:00,card_1001,303.70,Dis-Chem,pharmacy,Johannesburg,ZA,pos,approved
+txn_00161,2026-11-17T11:08:00,card_1022,832.57,Engen,fuel,Durban,ZA,pos,approved
+txn_00162,2026-11-17T11:20:00,card_1012,8900.00,Harrods,clothing,London,GB,pos,approved
+txn_00163,2026-11-17T12:21:00,card_1001,1164.57,Ackermans,clothing,Johannesburg,ZA,pos,approved
+txn_00164,2026-11-17T12:25:00,card_1019,930.88,Mr Price,clothing,Pretoria,ZA,pos,approved
+txn_00165,2026-11-17T12:30:00,card_1028,480.00,Den Anker V&A Waterfront,restaurants,Cape Town,ZA,pos,approved
+txn_00166,2026-11-17T12:33:00,card_1016,837.50,Woolworths Food,groceries,Polokwane,ZA,pos,approved
+txn_00167,2026-11-17T12:46:00,card_1024,557.80,Woolworths Food,groceries,Durban,ZA,pos,approved
+txn_00168,2026-11-17T13:15:00,card_1030,694.92,Ackermans,clothing,Cape Town,ZA,pos,approved
+txn_00169,2026-11-17T13:31:00,card_1026,1113.70,Uber Eats,online_retail,Bloemfontein,ZA,online,approved
+txn_00170,2026-11-17T13:36:00,card_1014,915.82,Pick n Pay,groceries,Johannesburg,ZA,pos,approved
+txn_00171,2026-11-17T13:39:00,card_1027,572.66,Shell,fuel,Durban,ZA,pos,approved
+txn_00172,2026-11-17T13:51:00,card_1016,952.02,Checkers Sixty60,online_retail,Polokwane,ZA,online,approved
+txn_00173,2026-11-17T13:59:00,card_1020,984.37,Edgars,clothing,Pretoria,ZA,pos,approved
+txn_00174,2026-11-17T14:10:00,card_1011,142.34,Wimpy,restaurants,Mbombela,ZA,pos,approved
+txn_00175,2026-11-17T14:12:00,card_1014,1314.59,Mr Price,clothing,Johannesburg,ZA,pos,approved
+txn_00176,2026-11-17T14:25:00,card_1010,465.66,BP,fuel,Bloemfontein,ZA,pos,approved
+txn_00177,2026-11-17T14:46:00,card_1002,1051.56,Ackermans,clothing,Durban,ZA,pos,approved
+txn_00178,2026-11-17T14:46:00,card_1029,241.94,Pick n Pay,groceries,Cape Town,ZA,pos,approved
+txn_00179,2026-11-17T14:58:00,card_1006,386.51,Ocean Basket,restaurants,Bloemfontein,ZA,pos,approved
+txn_00180,2026-11-17T15:03:00,card_1005,814.32,Shell,fuel,Pretoria,ZA,pos,approved
+txn_00181,2026-11-17T15:11:00,card_1027,1097.87,Takealot,online_retail,Durban,ZA,online,approved
+txn_00182,2026-11-17T16:49:00,card_1022,156.56,Checkers,groceries,Durban,ZA,pos,approved
+txn_00183,2026-11-17T16:53:00,card_1008,1384.37,Mr Price,clothing,Polokwane,ZA,pos,approved
+txn_00184,2026-11-17T18:10:00,card_1001,121.28,Spur,restaurants,Johannesburg,ZA,pos,approved
+txn_00185,2026-11-17T18:43:00,card_1017,369.65,Uber Eats,online_retail,Pretoria,ZA,online,approved
+txn_00186,2026-11-17T19:02:00,card_1020,323.68,Woolworths Food,groceries,Pretoria,ZA,pos,approved
+txn_00187,2026-11-17T19:18:00,card_1014,350.08,Clicks,pharmacy,Johannesburg,ZA,pos,approved
+txn_00188,2026-11-17T19:30:00,card_1015,200.00,Hollywoodbets,gambling,Durban,ZA,online,approved
+txn_00189,2026-11-17T19:51:00,card_1004,605.81,Netflix,online_retail,Mbombela,ZA,online,approved
+txn_00190,2026-11-17T20:01:00,card_1008,846.00,Netflix,online_retail,Polokwane,ZA,online,approved
+txn_00191,2026-11-17T20:05:00,card_1003,899.00,Takealot,online_retail,Johannesburg,ZA,online,approved
+txn_00192,2026-11-17T20:12:00,card_1003,345.50,Uber Eats,online_retail,Johannesburg,ZA,online,approved
+txn_00193,2026-11-17T20:13:00,card_1016,412.41,Engen,fuel,Polokwane,ZA,pos,approved
+txn_00194,2026-11-17T20:20:00,card_1003,1199.00,Superbalist,online_retail,Johannesburg,ZA,online,approved
+txn_00195,2026-11-17T20:31:00,card_1003,199.00,Netflix,online_retail,Johannesburg,ZA,online,approved
+txn_00196,2026-11-17T20:32:00,card_1009,298.46,Wimpy,restaurants,Cape Town,ZA,pos,approved
+txn_00197,2026-11-17T20:38:00,card_1003,760.00,Bash,online_retail,Johannesburg,ZA,online,approved
+txn_00198,2026-11-17T20:39:00,card_1017,656.18,Dis-Chem,pharmacy,Pretoria,ZA,pos,approved
+txn_00199,2026-11-17T20:44:00,card_1003,1099.00,Apple,online_retail,Johannesburg,ZA,online,approved
+txn_00200,2026-11-17T20:51:00,card_1003,1500.00,Steam Gift Cards,gift_cards,Johannesburg,ZA,online,approved
+txn_00201,2026-11-18T01:02:00,card_1021,7500.00,CryptoSwap ZA,crypto,Cape Town,ZA,online,declined
+txn_00202,2026-11-18T01:05:00,card_1021,7500.00,CryptoSwap ZA,crypto,Cape Town,ZA,online,declined
+txn_00203,2026-11-18T01:09:00,card_1021,7500.00,CryptoSwap ZA,crypto,Cape Town,ZA,online,declined
+txn_00204,2026-11-18T01:12:00,card_1021,7500.00,CryptoSwap ZA,crypto,Cape Town,ZA,online,declined
+txn_00205,2026-11-18T01:16:00,card_1021,7500.00,CryptoSwap ZA,crypto,Cape Town,ZA,online,approved
+txn_00206,2026-11-18T03:15:00,card_1025,6200.00,Ikeja Electronics,electronics,Lagos,NG,pos,approved
+txn_00207,2026-11-18T07:58:00,card_1030,281.69,Takealot,online_retail,Cape Town,ZA,online,approved
+txn_00208,2026-11-18T08:02:00,card_1016,1111.65,Uber Eats,online_retail,Polokwane,ZA,online,approved
+txn_00209,2026-11-18T08:10:00,card_1019,839.76,Uber Eats,online_retail,Pretoria,ZA,online,approved
+txn_00210,2026-11-18T08:11:00,card_1029,280.00,Clicks,pharmacy,Cape Town,ZA,pos,approved
+txn_00211,2026-11-18T08:13:00,card_1011,281.46,Woolworths Food,groceries,Mbombela,ZA,pos,approved
+txn_00212,2026-11-18T08:54:00,card_1006,1166.27,Pick n Pay,groceries,Bloemfontein,ZA,pos,approved
+txn_00213,2026-11-18T09:03:00,card_1029,699.29,Mr Price,clothing,Cape Town,ZA,pos,approved
+txn_00214,2026-11-18T09:17:00,card_1001,410.28,Dis-Chem,pharmacy,Johannesburg,ZA,pos,approved
+txn_00215,2026-11-18T09:28:00,card_1011,579.56,BP,fuel,Mbombela,ZA,pos,approved
+txn_00216,2026-11-18T09:31:00,card_1026,776.73,Woolworths Food,groceries,Bloemfontein,ZA,pos,approved
+txn_00217,2026-11-18T09:59:00,card_1014,611.37,Spar,groceries,Johannesburg,ZA,pos,approved
+txn_00218,2026-11-18T10:16:00,card_1020,231.57,Pep,clothing,Pretoria,ZA,pos,approved
+txn_00219,2026-11-18T10:23:00,card_1029,155.78,Spar,groceries,Cape Town,ZA,pos,approved
+txn_00220,2026-11-18T10:35:00,card_1023,239.39,Dis-Chem,pharmacy,Bloemfontein,ZA,pos,approved
+txn_00221,2026-11-18T10:46:00,card_1008,262.92,Uber Eats,online_retail,Polokwane,ZA,online,approved
+txn_00222,2026-11-18T11:19:00,card_1008,495.16,Ocean Basket,restaurants,Polokwane,ZA,pos,approved
+txn_00223,2026-11-18T11:37:00,card_1011,128.15,Spar,groceries,Mbombela,ZA,pos,approved
+txn_00224,2026-11-18T11:43:00,card_1019,433.71,Edgars,clothing,Pretoria,ZA,pos,approved
+txn_00225,2026-11-18T12:15:00,card_1016,528.77,Edgars,clothing,Polokwane,ZA,pos,approved
+txn_00226,2026-11-18T12:56:00,card_1027,893.27,Sasol,fuel,Durban,ZA,pos,approved
+txn_00227,2026-11-18T13:17:00,card_1010,1479.98,Checkers Sixty60,online_retail,Bloemfontein,ZA,online,approved
+txn_00228,2026-11-18T13:32:00,card_1008,438.31,Dis-Chem,pharmacy,Polokwane,ZA,pos,approved
+txn_00229,2026-11-18T13:48:00,card_1009,156.01,Clicks,pharmacy,Cape Town,ZA,pos,approved
+txn_00230,2026-11-18T14:07:00,card_1030,808.71,Woolworths Food,groceries,Cape Town,ZA,pos,approved
+txn_00231,2026-11-18T14:19:00,card_1010,704.91,Takealot,online_retail,Bloemfontein,ZA,online,approved
+txn_00232,2026-11-18T14:24:00,card_1024,1170.53,Pep,clothing,Durban,ZA,pos,approved
+txn_00233,2026-11-18T14:40:00,card_1018,18500.00,Hi-Fi Corporation,electronics,Durban,ZA,pos,approved
+txn_00234,2026-11-18T15:39:00,card_1024,1115.32,Pep,clothing,Durban,ZA,pos,approved
+txn_00235,2026-11-18T15:47:00,card_1023,635.35,Wimpy,restaurants,Bloemfontein,ZA,pos,approved
+txn_00236,2026-11-18T15:49:00,card_1005,629.90,Ocean Basket,restaurants,Pretoria,ZA,pos,approved
+txn_00237,2026-11-18T16:17:00,card_1002,934.97,Sasol,fuel,Durban,ZA,pos,approved
+txn_00238,2026-11-18T17:09:00,card_1013,1206.87,Mr Price,clothing,Johannesburg,ZA,pos,approved
+txn_00239,2026-11-18T17:46:00,card_1026,203.94,Uber Eats,online_retail,Bloemfontein,ZA,online,approved
+txn_00240,2026-11-18T17:53:00,card_1019,880.80,BP,fuel,Pretoria,ZA,pos,approved
+txn_00241,2026-11-18T18:13:00,card_1016,920.44,Shell,fuel,Polokwane,ZA,pos,approved
+txn_00242,2026-11-18T18:26:00,card_1020,678.04,Takealot,online_retail,Pretoria,ZA,online,approved
+txn_00243,2026-11-18T18:27:00,card_1022,853.80,Spar,groceries,Durban,ZA,pos,approved
+txn_00244,2026-11-18T19:17:00,card_1024,705.91,Pick n Pay,groceries,Durban,ZA,pos,approved
+txn_00245,2026-11-18T19:23:00,card_1013,615.31,Netflix,online_retail,Johannesburg,ZA,online,approved
+txn_00246,2026-11-18T19:27:00,card_1004,758.88,Takealot,online_retail,Mbombela,ZA,online,approved
+txn_00247,2026-11-18T19:51:00,card_1023,688.45,Pep,clothing,Bloemfontein,ZA,pos,approved
+txn_00248,2026-11-18T19:52:00,card_1005,213.21,Clicks,pharmacy,Pretoria,ZA,pos,approved
+txn_00249,2026-11-18T20:08:00,card_1017,319.63,Ocean Basket,restaurants,Pretoria,ZA,pos,approved
